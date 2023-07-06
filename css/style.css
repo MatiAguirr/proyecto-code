@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #001C30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+
+}
+.header li{
+        font-size: 13px;
+        padding: 5px;
+        background-color: white;
+}
