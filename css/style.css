@@ -38,16 +38,18 @@
 /* ----MAIN---- */
 .main{
     background-color: #EEE3CB;
-    background-image: url(https://pyhca.com/wp-content/uploads/2023/04/seguridad-pistas-de-aterrizaje.jpg);
+    background-image: url(https://i.pinimg.com/originals/6b/7f/d7/6b7fd734728e55e229cb06b79d12dd27.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .main .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .main h1{
     color:#176B87;
@@ -105,13 +107,13 @@ input{
     border-radius: 10px;
 }
 .fly{
-    /* background-color: #001C30; */
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
 }
-.go{
+.sec-img{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .go h2{
     color: #001C30;
@@ -131,8 +133,17 @@ input{
     text-transform: uppercase;  
 }
 .go li{
-    color: #001C30;
+    color: #64CCC5;
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
     padding: 10px;
+}
+/* -----FOOTER----- */
+.footer{
+        background-color: #001C30;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
 }
