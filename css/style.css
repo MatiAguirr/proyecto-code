@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,13 +18,121 @@
 
 }
 .header li{
-        font-size: 13px;
-        padding: 5px;
-        background-color: white;
+    font-size: 13px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #001C30;
+    border-radius: 10px;
+}
+.header a{
+    color: #64CCC5;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none
+}
+.hov:hover{
+    background-color: #001C30;
+    padding: 2px;
+    font-weight: bold;
+    text-decoration: none;
 }
 /* ----MAIN---- */
 .main{
     background-color: #EEE3CB;
     background-image: url(https://pyhca.com/wp-content/uploads/2023/04/seguridad-pistas-de-aterrizaje.jpg);
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.main .container{
+    display: flex;
+    flex-direction: column;
+}
+.main h1{
+    color:#176B87;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+}
+.main .tag{
+    margin: 10px;
+    text-decoration: none
+}
+.main small{
+    background-color: #001C30;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+small:hover{
+    background-color: #EEE3CB;
+    color: #001C30;
+    font-weight: normal;
+    text-decoration: none;
+}
+.container-form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    background-color: #001C30;
+    color: aliceblue;
+    margin: 5px 70px;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.alum div{
+    background-color: #001C30;
+    margin: 3px;
+    padding: 5px;
+    color: #EEE3CB;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.horas div{
+    background-color: #001C30;
+    margin: 3px;
+    padding: 5px;
+    color: #EEE3CB;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.fly{
+    /* background-color: #001C30; */
+    margin: 10px;
+    padding: 10px;
+}
+.go{
+    display: flex;
+    flex-direction: column;
+}
+.go h2{
+    color: #001C30;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.go p{
+    color: aliceblue;
+    text-align: start;
+    padding: 15px 0;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+}
+.go ul{
+    list-style-type: none;
+    text-transform: uppercase;  
+}
+.go li{
+    color: #001C30;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding: 10px;
 }
