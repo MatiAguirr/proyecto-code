@@ -14,7 +14,9 @@
 .header ul{
     list-style-type: none;
     text-transform: uppercase;
+    margin: auto;
     display: flex;
+    flex-direction: row;
 
 }
 .header li{
@@ -74,7 +76,7 @@ small:hover{
     font-weight: normal;
     text-decoration: none;
 }
-.container-form div{
+.seccion div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,4 +165,42 @@ input{
     color: aliceblue;
     font-size: 10px;
     padding: 10px 0 0 0;
+}
+
+@media (min-width: 426px){
+    .main .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px){
+    .seccion{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "form form"
+        "alum horas";
+        align-items: center;
+    }
+    .form{
+        margin: auto;
+        grid-area: form;
+    }
+    .alum{
+        grid-area: alum;
+        margin: 0 15px 0 0;
+    }
+    .horas{
+        grid-area: horas;
+        margin: 0 0 0 15px;
+    }
 }
