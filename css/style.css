@@ -86,7 +86,7 @@ small:hover{
     padding: 10px;
 }
 input{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     border-radius: 15px;
 }
@@ -120,6 +120,7 @@ input{
     padding: 5px;
     text-align: center;
     font-size: 30px;
+    font-family: 'Kanit', sans-serif;
 }
 .go p{
     color: aliceblue;
@@ -146,4 +147,20 @@ input{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+}
+.col{
+    color: aliceblue;
+    font-size: 15px;
+}
+.col h2{
+    color: #64CCC5;
+}
+.col a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer p{
+    color: aliceblue;
+    font-size: 10px;
+    padding: 10px 0 0 0;
 }
