@@ -54,10 +54,11 @@
     flex-wrap: wrap;
 }
 .main h1{
-    color:#176B87;
-    font-size: 30px;
+    color:#d0e6ed;
+    font-size: 50px;
     margin: 5px;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 .main .tag{
     margin: 10px;
@@ -202,5 +203,35 @@ input{
     .horas{
         grid-area: horas;
         margin: 0 0 0 15px;
+    }
+}
+
+@media (min-width: 1025px){
+    .main img{
+        height: 300px;
+    }
+    .sec-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "parrafo imagen"
+        "lista imagen";
+    }
+    .go p{
+        grid-area: parrafo;
+    }
+    .sec-img{
+        grid-area: imagen;
+    }
+    .go ul{
+        grid-area: lista;
+    }
+    .go{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-img img{
+        margin: auto;
     }
 }
