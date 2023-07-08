@@ -235,3 +235,8 @@ input{
         margin: auto;
     }
 }
+@media (min-width: 1441px){
+    .footer{
+        flex-direction: column;
+}
+}
