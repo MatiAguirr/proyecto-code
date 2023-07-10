@@ -142,6 +142,23 @@ input{
     font-size: 20px;
     padding: 10px;
 }
+/* MAIN CURSOS */
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin: 25px;
+}
+.card h5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: #428c87;
+}
+.card p{
+    font-family: 'Kanit', sans-serif;
+}
 /* -----FOOTER----- */
 .footer{
         background-color: #001C30;
@@ -181,6 +198,14 @@ input{
         display: flex;
         flex-direction: column;
     }
+    .cursos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 300px;
+    }
 }
 
 @media (min-width: 769px){
@@ -203,6 +228,14 @@ input{
     .horas{
         grid-area: horas;
         margin: 0 0 0 15px;
+    }
+    .cursos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 250px;
     }
 }
 
@@ -234,9 +267,22 @@ input{
     .sec-img img{
         margin: auto;
     }
+    .cursos{
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cursos .card{
+        width: 350px;
+    }
 }
 @media (min-width: 1441px){
     .footer{
         flex-direction: column;
-}
+    }
+    .cursos{
+        width: 1550px;
+        margin: auto;
+    }
 }
